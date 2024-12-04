@@ -6,5 +6,5 @@ public class MovieModel
     public string producers { get; set; }
     public string studios { get; set; }
     public int year { get; set; }
-    public string winner { get; set; }
+    public bool winner { get; set; }
 }

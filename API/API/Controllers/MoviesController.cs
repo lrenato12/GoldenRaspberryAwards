@@ -1,4 +1,5 @@
 ﻿using API.Models;
+using API.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
@@ -7,12 +8,24 @@ namespace API.Controllers;
 [ApiController]
 public class MoviesController : ControllerBase
 {
+    #region [ PROPERTS ]
     private readonly MovieContext _context;
 
-    public MoviesController(MovieContext context) { _context = context; }
+    private readonly ProducerIntervalService _producerIntervalService;
+    #endregion
 
+    #region [ CTOR ]
+    public MoviesController(MovieContext context, ProducerIntervalService producerIntervalService)
+    {
+        _context = context;
+        _producerIntervalService = producerIntervalService;
+    }
+    #endregion
+
+    #region [ METHODS ]
+    #region [ GET MOVIES ]
     /// <summary>
-    /// Get Movies
+    /// Endpoint para retornar todos os registros
     /// </summary>
     /// <returns></returns>
     [HttpGet("GetMovies")]
@@ -21,7 +34,9 @@ public class MoviesController : ControllerBase
         var movies = _context.Movies.ToList();
         return Ok(movies);
     }
+    #endregion
 
+    #region [ GET PRODUCERS INTERVAL ]
     /// <summary>
     /// Endpoint para obter o produtor com maior e menor intervalo entre prêmios
     /// </summary>
@@ -29,11 +44,9 @@ public class MoviesController : ControllerBase
     [HttpGet("GetProducersInterval")]
     public IActionResult GetProducersInterval()
     {
-        var result = _context.GetProducersInterval();
-        return Ok(new
-        {
-            max = result.MaxInterval,
-            min = result.MinInterval
-        });
-    }
+        var result = _producerIntervalService.GetProducerIntervals();
+        return Ok(result);
+    }  
+    #endregion
+    #endregion
 }

@@ -20,6 +20,7 @@ public class CsvLoader
         using var reader = new StreamReader(filePath);
         using var csv = new CsvReader(reader, config);
 
+        csv.Context.RegisterClassMap<MovieMap>();
         var movies = csv.GetRecords<MovieModel>().ToList();
 
         var all = from c in context.Movies select c;

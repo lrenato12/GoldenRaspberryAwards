@@ -17,7 +17,8 @@ public class MovieContext : DbContext
     public (List<ProducerInterval> MaxInterval, List<ProducerInterval> MinInterval) GetProducersInterval()
     {
         // Filtra os filmes vencedores
-        var winners = this.Movies.Where(m => m.winner.ToLower() == "true").ToList();
+        //var winners = this.Movies.Where(m => m.winner.HasValue && m.winner.Equals(true)).ToList();
+        var winners = this.Movies.Where(m => m.winner.Equals(true)).ToList();
 
         // Agrupa os filmes por produtor e ordena por ano
         var groupedByProducer = winners

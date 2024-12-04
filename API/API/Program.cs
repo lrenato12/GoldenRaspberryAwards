@@ -1,4 +1,5 @@
 using API.Models;
+using API.Service;
 using API.Utils;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -17,8 +18,8 @@ builder.Services.AddOpenApi();
 builder.Services.AddDbContext<MovieContext>(options =>
     options.UseSqlite("DataSource=movies.db"));
 
-// Registra o serviço do MovieService
 builder.Services.AddScoped<MovieContext>();
+builder.Services.AddScoped<ProducerIntervalService>();
 
 // Adiciona a configuração do Swagger
 builder.Services.AddEndpointsApiExplorer();
@@ -28,13 +29,12 @@ builder.Services.AddSwaggerGen(options =>
     {
         Title = "Movie API",
         Version = "v1",
-        Description = "API para gerenciamento de filmes e vencedores do Golden Raspberry Awards"
+        Description = "API para gerenciamento da lista de indicados e vencedores da categoria Pior Filme do Golden Raspberry Awards."
     });
 });
 
 var app = builder.Build();
 
-// Habilita o Swagger
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
