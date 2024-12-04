@@ -64,3 +64,7 @@ C:\git\Test\GoldenRaspberryAwards\API\API\obj\Debug\net9.0\refint\API.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\obj\Debug\net9.0\API.pdb
 C:\git\Test\GoldenRaspberryAwards\API\API\obj\Debug\net9.0\API.genruntimeconfig.cache
 C:\git\Test\GoldenRaspberryAwards\API\API\obj\Debug\net9.0\ref\API.dll
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.csv
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.db
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.db-shm
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.db-wal

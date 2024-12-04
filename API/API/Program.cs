@@ -1,5 +1,6 @@
 using API.Models;
 using API.Utils;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+// Configuração do MovieContext com banco de dados SQLite
+builder.Services.AddDbContext<MovieContext>(options =>
+    options.UseSqlite("DataSource=movies.db"));
+
+// Registra o serviço do MovieService
+builder.Services.AddScoped<MovieContext>();
 
 var app = builder.Build();
 
