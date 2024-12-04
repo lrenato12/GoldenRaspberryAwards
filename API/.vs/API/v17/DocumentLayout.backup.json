@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|c:\\git\\test\\goldenraspberryawards\\api\\api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|solutionrelative:api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|c:\\git\\test\\goldenraspberryawards\\api\\api\\models\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|solutionrelative:api\\models\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|c:\\git\\test\\goldenraspberryawards\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|c:\\git\\test\\goldenraspberryawards\\api\\api\\utils\\csvloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|solutionrelative:api\\utils\\csvloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "API\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:43:32.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:40:50.977Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -78,6 +121,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CsvLoader.cs",
+              "DocumentMoniker": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Utils\\CsvLoader.cs",
+              "RelativeDocumentMoniker": "API\\Utils\\CsvLoader.cs",
+              "ToolTip": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Utils\\CsvLoader.cs",
+              "RelativeToolTip": "API\\Utils\\CsvLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:40:18.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieContext.cs",
+              "DocumentMoniker": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Models\\MovieContext.cs",
+              "RelativeDocumentMoniker": "API\\Models\\MovieContext.cs",
+              "ToolTip": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Models\\MovieContext.cs",
+              "RelativeToolTip": "API\\Models\\MovieContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:39:29.838Z",
+              "EditorCaption": ""
             }
           ]
         }
