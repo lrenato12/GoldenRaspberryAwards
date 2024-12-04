@@ -1,3 +1,4 @@
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\CsvHelper.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\appsettings.Development.json
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\appsettings.json
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\API.staticwebassets.endpoints.json
@@ -10,11 +11,11 @@ C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\API.deps.json
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\API.runtimeconfig.json
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\API.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\API.pdb
-C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\CsvHelper.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
@@ -25,6 +26,10 @@ C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\SQLitePCLRaw.provider
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\xunit.abstractions.dll
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\xunit.assert.dll
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\xunit.core.dll
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\xunit.execution.dotnet.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so

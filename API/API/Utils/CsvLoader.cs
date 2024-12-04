@@ -7,6 +7,13 @@ namespace API.Utils;
 
 public class CsvLoader
 {
+    #region [ LOAD CSV DATA ]
+    /// <summary>
+    /// Metodo responsavel por carregar os itens do CSV.
+    /// </summary>
+    /// <param name="context"></param>
+    /// <param name="filePath"></param>
+    /// <exception cref="FileNotFoundException"></exception>
     public static void LoadCsvData(MovieContext context, string filePath)
     {
         if (!File.Exists(filePath)) throw new FileNotFoundException($"File not found: {filePath}");
@@ -29,5 +36,6 @@ public class CsvLoader
 
         context.Movies.AddRange(movies);
         context.SaveChanges();
-    }
+    } 
+    #endregion
 }

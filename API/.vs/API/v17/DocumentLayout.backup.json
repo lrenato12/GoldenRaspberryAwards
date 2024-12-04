@@ -1,35 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|c:\\git\\test\\goldenraspberryawards\\api\\api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|solutionrelative:api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|c:\\git\\test\\goldenraspberryawards\\api\\api\\utils\\csvloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|solutionrelative:api\\utils\\csvloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|c:\\git\\test\\goldenraspberryawards\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|c:\\git\\test\\goldenraspberryawards\\api\\api\\service\\producerintervalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|solutionrelative:api\\service\\producerintervalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|c:\\git\\test\\goldenraspberryawards\\api\\api\\models\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|solutionrelative:api\\models\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|c:\\git\\test\\goldenraspberryawards\\api\\api\\utils\\booleanyesnoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38EC74CD-6148-40CA-A795-A5CC2DAE651A}|API\\API.csproj|solutionrelative:api\\utils\\booleanyesnoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Renatim\\AppData\\Local\\Temp\\.vsdbgsrc\\5bb2595ad477e40206d145a9757e5bd1c5e773f9ea6ef64b503f6e99fe96d804\\DefaultTypeConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -37,77 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T17:40:50.977Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CsvLoader.cs",
-              "DocumentMoniker": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Utils\\CsvLoader.cs",
-              "RelativeDocumentMoniker": "API\\Utils\\CsvLoader.cs",
-              "ToolTip": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Utils\\CsvLoader.cs",
-              "RelativeToolTip": "API\\Utils\\CsvLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T17:40:18.78Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MoviesController.cs",
-              "DocumentMoniker": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Controllers\\MoviesController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\MoviesController.cs",
-              "ToolTip": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Controllers\\MoviesController.cs",
-              "RelativeToolTip": "API\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T17:43:32.551Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MovieContext.cs",
-              "DocumentMoniker": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Models\\MovieContext.cs",
-              "RelativeDocumentMoniker": "API\\Models\\MovieContext.cs",
-              "ToolTip": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Models\\MovieContext.cs",
-              "RelativeToolTip": "API\\Models\\MovieContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvxAAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T18:13:40.715Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProducerIntervalService.cs",
-              "DocumentMoniker": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Service\\ProducerIntervalService.cs",
-              "RelativeDocumentMoniker": "API\\Service\\ProducerIntervalService.cs",
-              "ToolTip": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Service\\ProducerIntervalService.cs",
-              "RelativeToolTip": "API\\Service\\ProducerIntervalService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T19:22:50.268Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -175,32 +78,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BooleanYesNoConverter.cs",
-              "DocumentMoniker": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Utils\\BooleanYesNoConverter.cs",
-              "RelativeDocumentMoniker": "API\\Utils\\BooleanYesNoConverter.cs",
-              "ToolTip": "C:\\git\\Test\\GoldenRaspberryAwards\\API\\API\\Utils\\BooleanYesNoConverter.cs",
-              "RelativeToolTip": "API\\Utils\\BooleanYesNoConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T19:13:16.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DefaultTypeConverter.cs",
-              "DocumentMoniker": "C:\\Users\\Renatim\\AppData\\Local\\Temp\\.vsdbgsrc\\5bb2595ad477e40206d145a9757e5bd1c5e773f9ea6ef64b503f6e99fe96d804\\DefaultTypeConverter.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Renatim\\AppData\\Local\\Temp\\.vsdbgsrc\\5bb2595ad477e40206d145a9757e5bd1c5e773f9ea6ef64b503f6e99fe96d804\\DefaultTypeConverter.cs",
-              "ToolTip": "C:\\Users\\Renatim\\AppData\\Local\\Temp\\.vsdbgsrc\\5bb2595ad477e40206d145a9757e5bd1c5e773f9ea6ef64b503f6e99fe96d804\\DefaultTypeConverter.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\..\\Users\\Renatim\\AppData\\Local\\Temp\\.vsdbgsrc\\5bb2595ad477e40206d145a9757e5bd1c5e773f9ea6ef64b503f6e99fe96d804\\DefaultTypeConverter.cs [Read Only]",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T19:13:18.2Z",
-              "EditorCaption": " [Read Only]"
             }
           ]
         }
