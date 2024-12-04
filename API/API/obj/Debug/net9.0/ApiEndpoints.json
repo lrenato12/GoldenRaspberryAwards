@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "API.Controllers.MoviesController",
+    "Method": "GetMovies",
+    "RelativePath": "Movies/GetMovies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

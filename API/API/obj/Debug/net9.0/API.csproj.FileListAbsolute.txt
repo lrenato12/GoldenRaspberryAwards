@@ -68,3 +68,6 @@ C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.csv
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.db
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.db-shm
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.db-wal
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -2,6 +2,7 @@
 using CsvHelper.Configuration;
 using CsvHelper;
 using System.Globalization;
+using API.Models.Map;
 
 namespace API.Utils
 {
@@ -20,7 +21,10 @@ namespace API.Utils
             using var reader = new StreamReader(filePath);
             using var csv = new CsvReader(reader, config);
 
-            var movies = csv.GetRecords<Movie>().ToList();
+            // Registra o mapeamento
+            //csv.Context.RegisterClassMap<MovieMap>();
+
+            var movies = csv.GetRecords<MovieModel>().ToList();
 
             context.Movies.AddRange(movies);
             context.SaveChanges();

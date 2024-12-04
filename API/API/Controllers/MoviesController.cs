@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
 
-[Route("[controller]")]
+[Route("api/[controller]")]
 [ApiController]
 public class MoviesController : ControllerBase
 {
@@ -16,5 +16,24 @@ public class MoviesController : ControllerBase
     /// </summary>
     /// <returns></returns>
     [HttpGet("GetMovies")]
-    public IActionResult GetMovies() => Ok(_context.Movies.ToList());
+    public IActionResult GetMovies()
+    {
+        var movies = _context.Movies.ToList();
+        return Ok(movies);
+    }
+
+    /// <summary>
+    /// Endpoint para obter o produtor com maior e menor intervalo entre prêmios
+    /// </summary>
+    /// <returns></returns>
+    [HttpGet("GetProducersInterval")]
+    public IActionResult GetProducersInterval()
+    {
+        var result = _context.GetProducersInterval();
+        return Ok(new
+        {
+            max = result.MaxInterval,
+            min = result.MinInterval
+        });
+    }
 }
