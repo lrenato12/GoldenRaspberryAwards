@@ -2,6 +2,10 @@ C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\appsettings.Developme
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\appsettings.json
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\API.staticwebassets.endpoints.json
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\API.exe
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.csv
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.db
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.db-shm
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.db-wal
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\API.deps.json
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\API.runtimeconfig.json
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\API.dll
@@ -18,6 +22,9 @@ C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Microsoft.OpenApi.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\SQLitePCLRaw.core.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
 C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
@@ -64,10 +71,3 @@ C:\git\Test\GoldenRaspberryAwards\API\API\obj\Debug\net9.0\refint\API.dll
 C:\git\Test\GoldenRaspberryAwards\API\API\obj\Debug\net9.0\API.pdb
 C:\git\Test\GoldenRaspberryAwards\API\API\obj\Debug\net9.0\API.genruntimeconfig.cache
 C:\git\Test\GoldenRaspberryAwards\API\API\obj\Debug\net9.0\ref\API.dll
-C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.csv
-C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.db
-C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.db-shm
-C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\movies.db-wal
-C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\git\Test\GoldenRaspberryAwards\API\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

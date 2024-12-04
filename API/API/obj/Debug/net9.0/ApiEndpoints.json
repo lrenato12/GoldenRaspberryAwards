@@ -2,7 +2,17 @@
   {
     "ContainingType": "API.Controllers.MoviesController",
     "Method": "GetMovies",
-    "RelativePath": "Movies/GetMovies",
+    "RelativePath": "api/Movies/GetMovies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.MoviesController",
+    "Method": "GetProducersInterval",
+    "RelativePath": "api/Movies/GetProducersInterval",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
