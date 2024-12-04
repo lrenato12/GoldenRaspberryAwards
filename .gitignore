@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+/API/.vs/API/DesignTimeBuild/.dtbcache.v2
+/API/.vs/API/FileContentIndex/29b7782e-48ac-4764-becb-b90038324ba2.vsidx
+/API/.vs/API/FileContentIndex/5b77da1a-3fed-45a9-9557-11627e90b3d3.vsidx
+/API/.vs/API/FileContentIndex/5d8806da-632f-41f2-9814-61188c7cbf62.vsidx
+/API/.vs/API/FileContentIndex/689c0ea8-c21a-40a3-b2fc-92fc2005b4e6.vsidx
+/API/.vs/API/FileContentIndex/da816f3b-e06d-49d6-b83c-ad87537a9da8.vsidx
+/API/.vs/API/v17/.suo
+/API/.vs/API/v17/DocumentLayout.json
+/API/API/bin/Debug/net9.0/movies.db-shm
+/API/API/movies.db-shm
