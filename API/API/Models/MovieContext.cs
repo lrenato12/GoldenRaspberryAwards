@@ -2,34 +2,41 @@
 
 namespace API.Models;
 
+/// <summary>
+/// Movie Context
+/// </summary>
 public class MovieContext : DbContext
 {
+    #region [ PROPERTY ]
     public DbSet<MovieModel> Movies { get; set; }
+    #endregion
 
+    #region [ CTOR ]
     public MovieContext(DbContextOptions<MovieContext> options) : base(options) { }
+    #endregion
 
+    #region [ ON MODEL CREATING ]
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<MovieModel>()
             .HasKey(m => m.title);
     }
+    #endregion
 
+    #region [ GET PRODUCERS INTERVAL ]
+    /// <summary>
+    /// Get Producers Interval
+    /// </summary>
+    /// <returns></returns>
     public (List<ProducerInterval> MaxInterval, List<ProducerInterval> MinInterval) GetProducersInterval()
     {
-        // Filtra os filmes vencedores
-        //var winners = this.Movies.Where(m => m.winner.HasValue && m.winner.Equals(true)).ToList();
         var winners = this.Movies.Where(m => m.winner.Equals(true)).ToList();
 
-        // Agrupa os filmes por produtor e ordena por ano
-        var groupedByProducer = winners
-            .GroupBy(m => m.producers)
-            .Where(g => g.Count() > 1) // Considera apenas produtores com mais de um prêmio
-            .ToList();
+        var groupedByProducer = winners.GroupBy(m => m.producers).Where(g => g.Count() > 1).ToList();
 
         var maxIntervalList = new List<ProducerInterval>();
         var minIntervalList = new List<ProducerInterval>();
 
-        // Calcula os intervalos entre os prêmios consecutivos para cada produtor
         foreach (var producerGroup in groupedByProducer)
         {
             var sortedByYear = producerGroup.OrderBy(m => m.year).ToList();
@@ -68,5 +75,6 @@ public class MovieContext : DbContext
         }
 
         return (maxIntervalList, minIntervalList);
-    }
+    } 
+    #endregion
 }

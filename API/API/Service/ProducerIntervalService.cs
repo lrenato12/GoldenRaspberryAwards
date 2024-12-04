@@ -2,15 +2,29 @@
 
 namespace API.Service;
 
+/// <summary>
+/// Producer Interval Service
+/// </summary>
 public class ProducerIntervalService
 {
+    /// <summary>
+    /// Property
+    /// </summary>
     private readonly MovieContext _context;
 
+    /// <summary>
+    /// CTOR
+    /// </summary>
+    /// <param name="context"></param>
     public ProducerIntervalService(MovieContext context)
     {
         _context = context;
     }
 
+    /// <summary>
+    /// Get Producer Intervals
+    /// </summary>
+    /// <returns></returns>
     public ProducerIntervalResponse GetProducerIntervals()
     {
         var movies = _context.Movies

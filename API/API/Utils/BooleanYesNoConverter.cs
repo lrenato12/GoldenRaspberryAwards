@@ -15,7 +15,6 @@ public class BooleanYesNoConverter : BooleanConverter
             if (string.IsNullOrEmpty(text) || string.Equals(text, "no", StringComparison.OrdinalIgnoreCase))
                 return false;
 
-            // Retorna o comportamento padrão se não for "yes"/"no"
             return base.ConvertFromString(text, row, memberMapData);
         }
         catch (Exception ex)

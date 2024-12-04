@@ -30,10 +30,7 @@ public class MoviesController : ControllerBase
     /// <returns></returns>
     [HttpGet("GetMovies")]
     public IActionResult GetMovies()
-    {
-        var movies = _context.Movies.ToList();
-        return Ok(movies);
-    }
+        => Ok(_context.Movies.ToList());
     #endregion
 
     #region [ GET PRODUCERS INTERVAL ]
@@ -43,10 +40,7 @@ public class MoviesController : ControllerBase
     /// <returns></returns>
     [HttpGet("GetProducersInterval")]
     public IActionResult GetProducersInterval()
-    {
-        var result = _producerIntervalService.GetProducerIntervals();
-        return Ok(result);
-    }  
+        => Ok(_producerIntervalService.GetProducerIntervals());
     #endregion
     #endregion
 }

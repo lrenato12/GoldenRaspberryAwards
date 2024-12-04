@@ -1,7 +1,7 @@
 year;title;studios;producers;winner
 1980;Can't Stop the Music;Associated Film Distribution;Allan Carr;yes
-1980;Cruising;Lorimar Productions, United Artists;Jerry Weintraub;
-1980;The Formula;MGM, United Artists;Steve Shagan;
+1980;Cruising;Lorimar Productions, United Artists;Jerry Weintraub;yes
+1980;The Formula;MGM, United Artists;Steve Shagan;yes
 1980;Friday the 13th;Paramount Pictures;Sean S. Cunningham;
 1980;The Nude Bomb;Universal Studios;Jennings Lang;
 1980;The Jazz Singer;Associated Film Distribution;Jerry Leider;
@@ -203,5 +203,8 @@ year;title;studios;producers;winner
 2019;Cats;Universal Pictures;Debra Hayward, Tim Bevan, Eric Fellner, and Tom Hooper;yes
 2019;The Fanatic;Quiver Distribution;Daniel Grodnik, Oscar Generale, and Bill Kenwright;
 2019;The Haunting of Sharon Tate;Saban Films;Lucas Jarach, Daniel Farrands, and Eric Brenner;
-2019;A Madea Family Funeral;Lionsgate;Ozzie Areu, Will Areu, and Mark E. Swinton;
+2019;A Madea Family Funeral;Lionsgate;Ozzie Areu, Will Areu, and Mark E. Swinton;yes
+2020;A Madea Family Funeral 2;Lionsgate;Ozzie Areu, Will Areu, and Mark E. Swinton;yes
 2019;Rambo: Last Blood;Lionsgate;Avi Lerner, Kevin King Templeton, Yariv Lerner, and Les Weldon;
+2099;Cruising 2;Lorimar Productions, United Artists;Jerry Weintraub;yes
+2099;The Formula 2;MGM, United Artists;Steve Shagan;yes

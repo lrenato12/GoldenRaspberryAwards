@@ -2,6 +2,10 @@
 using CsvHelper.Configuration;
 
 namespace API.Utils;
+
+/// <summary>
+/// Movie Map
+/// </summary>
 public class MovieMap : ClassMap<MovieModel>
 {
     public MovieMap()

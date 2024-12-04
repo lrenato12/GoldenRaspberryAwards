@@ -16,6 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="GoldenRaspberryAwardsAPI_README.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="movies.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

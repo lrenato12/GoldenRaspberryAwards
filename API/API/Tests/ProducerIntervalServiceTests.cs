@@ -3,6 +3,9 @@ using API.Service;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
 
+/// <summary>
+/// Producer Interval Service Tests
+/// </summary>
 public class ProducerIntervalServiceTests
 {
     private MovieContext GetInMemoryDbContext()
