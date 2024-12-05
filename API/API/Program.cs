@@ -3,7 +3,6 @@ using API.Service;
 using API.Service.CSVLoader;
 using API.Service.MovieDataImporter;
 using API.Service.MovieService;
-using API.Utils;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -25,7 +24,7 @@ builder.Services.AddScoped<MovieContext>();
 builder.Services.AddScoped<ProducerIntervalService>();
 builder.Services.AddScoped<ICsvLoaderService, CsvLoaderService>();
 builder.Services.AddScoped<IMovieService, MovieService>();
-builder.Services.AddScoped<MovieDataImporter>(); 
+builder.Services.AddScoped<MovieDataImporter>();
 #endregion
 
 // Adiciona a configuração do Swagger
